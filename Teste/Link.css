@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(77, 0, 121, 0.774);
+  }
+  h1 {
+    color: black;
+     
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    background-color: rgb(137, 98, 173);
+  }
+  p {
+    color: black;
+
+    background-color: rgb(137, 98, 173);
+  }
+  q {
+    color: black;
+
+    background-color: rgb(137, 98, 173);
+  }
+
+  a {
+    color: black;
+  }
+  footer {
+    color: black;
+  }
+
+  fieldset {
+    background-color: rgb(137, 98, 173);
+  }

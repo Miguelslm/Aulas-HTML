@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form pt3</title>
+</head>
+<body>
+  <header>
+  </header>
+  <main>
+    <form  method="post" action="phodajunin@gmail.com">
+
+    <fieldset>
+      <legend>Dados do Aluno</legend>
+     <label for="nome">Nome: </label>
+     <input type="text" id="nome" name="nome">
+     
+     <label for="email">E-mail: </label>
+     <input type="text" id="email" name="email"><br><br>
+
+     <label for="idade">Idade: </label>
+     <input type="date" name="idade" id="idade" name="idade"><br><br>
+
+     <label for="endereço">Endereço:</label>
+     <input type="text" id="endereço" name="endereço">
+     <label for="CEP">CEP</label>
+     <input type="number" name="CEP" id="CEP" name="CEP"><br><br>
+    </fieldset> 
+      <br>
+  <fieldset>
+    <legend>Unidades Ios</legend>
+     <label for="Lista1">Unidades: </label>
+     <select name="Lista1" id="Lista1">
+      <option value="0" selected disabled>Unidades</option>
+      <option value="Santana">Santana</option>
+      <option value="Santo_Amaro">Santo Amaro</option>
+      <option value="Itaquera">Itaquera</option>
+      <option value="Diadema">Diadema</option>
+    </select>
+  
+    <br><br>
+
+     <textarea name="tabela1" id="avaliaçao" cols="30" rows="10" placeholder="Deixe seu comentário aqui:" maxlength="160" required></textarea><br><br>
+
+  </fieldset>
+  <br>
+     <input type="submit" value="Enviar">
+     
+    </form>
+  </main>
+</body>
+</html>
